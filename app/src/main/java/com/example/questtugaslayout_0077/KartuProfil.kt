@@ -14,6 +14,12 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.size
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 
 @Composable
 fun KartuProfil(
@@ -39,5 +45,17 @@ fun KartuProfil(
             containerColor = colorResource(warnaLatar)
         )
     ) {
+        Row(
+            modifier = Modifier.padding(dimensionResource(R.dimen.padding_isi_kartu)),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(logo),
+                contentDescription = stringResource(R.string.deskripsi_logo),
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.ukuran_logo))
+                    .padding(dimensionResource(R.dimen.padding_logo))
+            )
+        }
     }
 }
