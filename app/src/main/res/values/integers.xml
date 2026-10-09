@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ukuran_judul">24</integer>
+    <integer name="ukuran_subjudul">14</integer>
+    <integer name="ukuran_nama">20</integer>
+    <integer name="ukuran_nama_cursive">24</integer>
+    <integer name="ukuran_telepon">12</integer>
+    <integer name="ukuran_alamat">12</integer>
+    <integer name="ukuran_copy">11</integer>
+</resources>
