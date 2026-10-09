@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="jarak_atas_halaman">60dp</dimen>
+    <dimen name="jarak_bawah_halaman">24dp</dimen>
+    <dimen name="jarak_judul_ke_kartu">16dp</dimen>
+    <dimen name="margin_kartu_horizontal">12dp</dimen>
+    <dimen name="margin_kartu_vertikal">6dp</dimen>
+    <dimen name="padding_isi_kartu">8dp</dimen>
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="padding_logo">5dp</dimen>
+    <dimen name="jarak_logo_teks">12dp</dimen>
+</resources>
