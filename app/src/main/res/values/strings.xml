@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">QuestTugasLayout_0077</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+    <string name="deskripsi_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
 </resources>
