@@ -65,5 +65,11 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             warnaLatar = R.color.card_4_bg,
             warnaAlamat = R.color.teks_putih
         )
+        Spacer(modifier = Modifier.weight(1f))
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = integerResource(R.integer.ukuran_copy).sp,
+            modifier = Modifier.padding(bottom = dimensionResource(R.dimen.jarak_bawah_halaman))
+        )
     }
 }
