@@ -4,7 +4,16 @@
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
     <string name="deskripsi_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama_1">Marc Marquez</string>
-    <string name="nama_2">Max Verstappen</string>
+    <string name="nama_1">Max Verstappen</string>
+    <string name="nama_2">Marc Marquez</string>
     <string name="nama_3">Maximo Quiles</string>
-    <string name="nama_4">Faraboy Zaknerz</string></resources>
+    <string name="nama_4">Faraboy Zaknerz</string>
+    <string name="telepon_2">085436874123</string>
+    <string name="telepon_3">085436874456</string>
+    <string name="telepon_4">085436874789</string>
+
+    <string name="alamat_1">Mareterra, Monako</string>
+    <string name="alamat_2">Madrid, Spanyol</string>
+    <string name="alamat_3">Murcia, Spanyol</string>
+    <string name="alamat_4">Gamping, Bantul</string>
+</resources>
