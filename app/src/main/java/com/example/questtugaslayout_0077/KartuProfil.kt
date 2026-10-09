@@ -20,6 +20,10 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Text
+import androidx.compose.ui.res.integerResource
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun KartuProfil(
@@ -56,6 +60,19 @@ fun KartuProfil(
                     .size(dimensionResource(R.dimen.ukuran_logo))
                     .padding(dimensionResource(R.dimen.padding_logo))
             )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.jarak_logo_teks))
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = integerResource(ukuranNama).sp,
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(R.color.teks_putih)
+                )
+            }
         }
     }
 }
