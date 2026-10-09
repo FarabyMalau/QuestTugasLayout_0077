@@ -72,6 +72,13 @@ fun KartuProfil(
                     fontWeight = bobotNama,
                     color = colorResource(R.color.teks_putih)
                 )
+                telepon?.let {
+                    Text(
+                        text = stringResource(it),
+                        fontSize = integerResource(R.integer.ukuran_telepon).sp,
+                        color = colorResource(R.color.teks_cyan)
+                    )
+                }
                 Text(
                     text = stringResource(alamat),
                     fontSize = integerResource(R.integer.ukuran_alamat).sp,
