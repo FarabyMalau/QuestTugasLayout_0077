@@ -44,5 +44,12 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontNama = FontFamily.Cursive,
             bobotNama = FontWeight.Normal
         )
+        KartuProfil(
+            nama = R.string.nama_2,
+            telepon = R.string.telepon_2,
+            alamat = R.string.alamat_2,
+            warnaLatar = R.color.card_2_bg,
+            warnaAlamat = R.color.teks_kuning
+        )
     }
 }
