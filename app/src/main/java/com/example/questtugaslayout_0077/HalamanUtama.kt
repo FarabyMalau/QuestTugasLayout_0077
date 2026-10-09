@@ -14,6 +14,7 @@ import androidx.compose.ui.res.integerResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.font.FontFamily
 
 @Composable
 fun HalamanUtama(modifier: Modifier = Modifier) {
@@ -34,5 +35,14 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul_ke_kartu)))
+        KartuProfil(
+            nama = R.string.nama_1,
+            alamat = R.string.alamat_1,
+            warnaLatar = R.color.card_1_bg,
+            warnaAlamat = R.color.teks_kuning,
+            ukuranNama = R.integer.ukuran_nama_cursive,
+            fontNama = FontFamily.Cursive,
+            bobotNama = FontWeight.Normal
+        )
     }
 }
